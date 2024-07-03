@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714756249125,
+      "tag": "0000_flaky_chameleon",
+      "breakpoints": true
+    }
+  ]
+}

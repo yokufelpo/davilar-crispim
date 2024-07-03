@@ -1,0 +1,139 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "prevId": "",
+  "version": "5",
+  "dialect": "mysql",
+  "tables": {
+    "people": {
+      "name": "people",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "int(11)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "autoincrement": false,
+          "name": "name",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "age": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "age",
+          "type": "int(11)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "birth_date": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "birth_date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "color": {
+          "autoincrement": false,
+          "name": "color",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "gender": {
+          "autoincrement": false,
+          "name": "gender",
+          "type": "char(1)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "admission_date": {
+          "default": "'current_timestamp()'",
+          "autoincrement": false,
+          "name": "admission_date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "document": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "document",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "addiction": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "addiction",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "education": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "education",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "deficiency": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "deficiency",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chronic_disease": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "chronic_disease",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "checkout_reason": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "checkout_reason",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "checkout_date": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "checkout_date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "admission_reason": {
+          "default": "'NULL'",
+          "autoincrement": false,
+          "name": "admission_reason",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
